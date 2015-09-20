@@ -5,4 +5,7 @@ package ua.aandryx.user;
  */
 public class ExtendedUser extends User {
 
+    public ExtendedUser(ExtendedUserInfo userInfo) {
+        super(userInfo);
+    }
 }
